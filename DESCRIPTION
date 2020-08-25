@@ -1,0 +1,18 @@
+Package: poll4pop
+Title: Functions for modelling central-place foraging pollinators 
+Version: 0.0.0.9000
+Authors@R: as.person(c(
+	"Yann Clough <yann.clough@cec.lu.se> [aut, cre]", 
+	"Emma Gardner <e.l.gardner@reading.ac.uk> [aut]",
+	"Johanna Haeussler <johanna.haeussler@idiv.de> [aut]",
+	"Ullrika Sahlin <ullrika.sahlin@cec.lu.se> [aut]",
+	"Henrik G. Smith <henrik.smith@biol.lu.se> [aut]"
+  ))
+Description: Collection of functions for spatially-explicit modelling of central-place foraging pollinators (bumble bees, solitary bees etc.).
+	Uses spatial data on floral and nesting quality to compute flower visitation and population dynamics for wild pollinators for a given year.
+	Can be used for multiple years by running a loop and using as input the output of the previous model.
+License: `use_gpl3_license()`
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1.9000
