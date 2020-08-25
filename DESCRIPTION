@@ -5,6 +5,7 @@ Authors@R: as.person(c(
 	"Yann Clough <yann.clough@cec.lu.se> [aut, cre]", 
 	"Emma Gardner <e.l.gardner@reading.ac.uk> [aut]",
 	"Johanna Haeussler <johanna.haeussler@idiv.de> [aut]",
+	"Charlotte Baey <charlotte.baey@univ-lille.fr> [aut]",
 	"Ullrika Sahlin <ullrika.sahlin@cec.lu.se> [aut]",
 	"Henrik G. Smith <henrik.smith@biol.lu.se> [aut]"
   ))
