@@ -14,6 +14,7 @@ Description: Collection of functions for spatially-explicit modelling of central
 	Can be used for multiple years by running a loop and using as input the output of the previous model.
 License: `use_gpl3_license()`
 Encoding: UTF-8
-LazyData: false
+LazyData: true
+Imports: raster, rgdal, rgeos, spatial.tools
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1.9000
