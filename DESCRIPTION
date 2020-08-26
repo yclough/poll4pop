@@ -12,9 +12,9 @@ Authors@R: as.person(c(
 Description: Collection of functions for spatially-explicit modelling of central-place foraging pollinators (bumble bees, solitary bees etc.).
 	Uses spatial data on floral and nesting quality to compute flower visitation and population dynamics for wild pollinators for a given year.
 	Can be used for multiple years by running a loop and using as input the output of the previous model.
-License: `use_gpl3_license()`
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
 Imports: raster, rgdal, rgeos, EBImage
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.1.9000
+RoxygenNote: 7.1.1.
