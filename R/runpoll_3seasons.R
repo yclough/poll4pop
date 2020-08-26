@@ -151,7 +151,7 @@ runpoll_3seasons<-function(M_poll0=numeric(0),
     # for all species foraging in period 1
     if(foraging_period[s,1]!="none")
     {
-      foraging <- ecodeal::latfordisp(N=raster::as.matrix(M_poll[[s]][[1]]),
+      foraging <- latfordisp(N=raster::as.matrix(M_poll[[s]][[1]]),
                            alpha = raster::as.matrix(floral[[s]][[v]]),
                            decay = kernelFor[[s]])
       values(flowvis[[s]][[v]]) <- as.vector(t(foraging$visitation_rate))  			 # flower visitation in the cells surrounding the focal cell
