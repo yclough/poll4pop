@@ -26,6 +26,9 @@
 #' Expansion to 3 seasons first used in:
 #' Gardner E, et al. (2020) Reliably predicting pollinator abundance: Challenges of calibrating
 #' process-based ecological models. Methods in Ecology and Evolution. \url{}
+#'
+#' @export
+#'
 #' @examples
 #'
 #' nf<-computeFloralNesting(landuseMap=landuse, edgesMap=stack(grassmargins,flowermargins), unitEdges = "sqm", widthEdges=1,
