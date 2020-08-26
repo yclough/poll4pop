@@ -21,12 +21,16 @@
 #'   \item{pollres}{the resources gathered by the bees}
 #'  }
 #'
-#' @references Haeussler J, Sahlin U, Baey C, Smith HG, Clough Y (2017) Predicting pollinator population size and pollination ecosystem service responses to enhancing floral and nesting resources. Ecology and Evolution, 7: 1898-1908.\url{http://dx.doi.org/10.1002/ece3.2765}
-#' Expansion to 3 seasons first used in: Gardner E, et al. (2020), Reliably predicting pollinator abundance: Challenges of calibrating process-based ecological models. Methods in Ecology and Evolution. \url{}
+#' @references Haeussler J, Sahlin U, Baey C, Smith HG, Clough Y (2017) Predicting pollinator population size and pollination ecosystem service responses
+#' to enhancing floral and nesting resources. Ecology and Evolution, 7: 1898-1908.\url{http://dx.doi.org/10.1002/ece3.2765}
+#' Expansion to 3 seasons first used in:
+#' Gardner E, et al. (2020) Reliably predicting pollinator abundance: Challenges of calibrating
+#' process-based ecological models. Methods in Ecology and Evolution. \url{}
 #' @examples
 #'
 #' nf<-computeFloralNesting(landuseMap=landuse, edgesMap=stack(grassmargins,flowermargins), unitEdges = "sqm", widthEdges=1,
-#'                          landuseCodes, bees=c("GroundNestingBumblebees", "GroundNestingSolitaryBees"), num_floral=3, florNestInfo=parameters$florNestInfo, codeEdges=c(11,21), cell.size = 10,paramList=parameters)
+#'                          landuseCodes, bees=c("GroundNestingBumblebees", "GroundNestingSolitaryBees"), num_floral=3,
+#'                          florNestInfo=parameters$florNestInfo, codeEdges=c(11,21), cell.size = 10,paramList=parameters)
 #' poll<-runpoll_3seasons(M_poll0 = numeric(0), firstyear=TRUE, firstyearfactor = c(1, 1),
 #'             bees = c("GroundNestingBumblebees", "GroundNestingSolitaryBees"), cell.size = 10, paramList=parameters, nest=nf$nest,
 #'             floral=nf$floral, cutoff = 0.99, loc_managed)
